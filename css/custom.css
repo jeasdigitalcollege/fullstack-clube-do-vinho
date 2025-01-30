@@ -31,3 +31,11 @@ body.login div {
    height: 100vh
    object-fit: contain;
 }
+
+#erro_nome {
+   display: none;
+}
+
+#erro_descricao {
+   display: none;
+}

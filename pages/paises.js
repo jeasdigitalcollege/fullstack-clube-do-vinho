@@ -7,7 +7,7 @@ function paises() {
            </div>
 
            <div>
-               <a class="btn btn-outline-primary" href="add-categoria.html">Novo País</a>
+               <a class="btn btn-outline-primary" href="#">Novo País</a>
            </div>
        </section>
 
@@ -17,6 +17,7 @@ function paises() {
                    <tr>
                        <th class="text-center">#Id</th>
                        <th>Nome do País</th>
+                       <th class="text-center">Sigla</th>
                        <th>Continente</th>
                        <th class="text-center">Ações</th>
                    </tr>
@@ -26,7 +27,8 @@ function paises() {
                    <tr>
                        <td class="text-center">1</td>
                        <td>Brasil</td>
-                       <td>América</td>
+                       <td class="text-center">BR</td>
+                       <td>America do Sul</td>
                        <td class="text-center">
                            <div class="d-flex justify-content-center gap-2">
                                <a href="#" class="btn btn-outline-success btn-sm">
@@ -43,7 +45,8 @@ function paises() {
                    </tr>
                    <tr>
                        <td class="text-center">2</td>
-                       <td>Espanha</td>
+                       <td>Itália</td>
+                       <td class="text-center">IT</td>
                        <td>Europa</td>
                        <td class="text-center">
                            <div class="d-flex justify-content-center gap-2">

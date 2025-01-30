@@ -7,7 +7,7 @@ function clientes() {
             </div>
 
             <div>
-                <a class="btn btn-outline-primary" href="add-categoria.html">Novo Cliente</a>
+                <a class="btn btn-outline-primary" href="#">Novo Cliente</a>
             </div>
         </section>
 
@@ -17,6 +17,8 @@ function clientes() {
                     <tr>
                         <th class="text-center">#Id</th>
                         <th>Nome do Cliente</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
                         <th>Endereço</th>
                         <th class="text-center">Ações</th>
                     </tr>
@@ -26,7 +28,9 @@ function clientes() {
                     <tr>
                         <td class="text-center">1</td>
                         <td>José Maria</td>
-                        <td>Beco do Batman, 1 São Paulo-SP</td>
+                        <td>ze@email.com.br</td>
+                        <td>(11) 91234-5678</td>
+                        <td>Beco do Batman, 123 São Paulo-SP</td>                        
                         <td class="text-center">
                             <div class="d-flex justify-content-center gap-2">
                                 <a href="#" class="btn btn-outline-success btn-sm">
@@ -43,8 +47,10 @@ function clientes() {
                     </tr>
                     <tr>
                         <td class="text-center">2</td>
-                        <td>Maria das Dores</td>
-                        <td>Rua Cibalema 123 Fortaleza-CE</td>
+                        <td>Ana Beatriz</td>
+                        <td>ana.beatriz@email.com</td>
+                        <td>(21) 96543-2109</td>
+                        <td>Rua dos Vinhedos, 567 Rio de Janeiro-RJ</td>
                         <td class="text-center">
                             <div class="d-flex justify-content-center gap-2">
                                 <a href="#" class="btn btn-outline-success btn-sm">

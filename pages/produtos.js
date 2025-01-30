@@ -7,7 +7,7 @@ function produtos() {
           </div>
 
           <div>
-              <a class="btn btn-outline-primary" href="add-categoria.html">Novo Produto</a>
+              <a class="btn btn-outline-primary" href="#">Novo Produto</a>
           </div>
       </section>
 
@@ -16,9 +16,11 @@ function produtos() {
               <thead class="table-primary">
                   <tr>
                       <th class="text-center">#Id</th>
-                      <th>Nome do Produto</th>
-                      <th>Descrição do Produto</th>
-                      <th>Preço</th>
+                      <th>Nome</th>
+                      <th>Descrição</th>
+                      <th class="text-center">Preço</th>
+                      <th class="text-center">Estoque</th>
+                      <th class="text-center">Categoria</th>
                       <th class="text-center">Ações</th>
                   </tr>
               </thead>
@@ -26,10 +28,11 @@ function produtos() {
               <tbody>
                   <tr>
                       <td class="text-center">1</td>
-                      <td>Vinho Concha Y Toro</td>
-                      <td>Vinho seco com sabor de carvalho envelhecido em barris de carvalho</td>
-                      <td>50,00</td>
-
+                      <td>Concha Y Toro</td>
+                      <td>Seco com sabor amadeirado envelhecido em barris de carvalho</td>
+                      <td class="text-center">R$ 50,00</td>
+                      <td class="text-center">20</td>
+                      <td class="text-center">Vinhos Tintos</td>
                       <td class="text-center">
                           <div class="d-flex justify-content-center gap-2">
                               <a href="#" class="btn btn-outline-success btn-sm">
@@ -45,10 +48,12 @@ function produtos() {
                       </td>
                   </tr>
                   <tr>
-                      <td class="text-center">2</td>
-                      <td>Vinho Cazemiro Tannat 2015</td>
-                      <td>Vinho tinto seco feito com uvas da região do rio São Francisco</td>
-                      <td>70,00</td>
+                      <td class="text-center">1</td>
+                      <td>Cazemiro Tannat 2015</td>
+                      <td>Tinto seco feito com uvas da região do rio São Francisco</td>
+                      <td class="text-center">R$ 70,00</td>
+                      <td class="text-center">40</td>
+                      <td class="text-center">Vinhos Brancos</td>
                       <td class="text-center">
                           <div class="d-flex justify-content-center gap-2">
                               <a href="#" class="btn btn-outline-success btn-sm">
