@@ -1,17 +1,16 @@
 function categorias() {
     return `
-     <body class="container">
-         <section class="d-flex flex-row justify-content-between align-items-center card card-body">
+        <section class="d-flex flex-row justify-content-between align-items-center card card-body mt-2">
              <div>  
                  <h2>Categorias</h2>
              </div>
  
              <div>
-                 <a class="btn btn-outline-primary" href="#">Novo Cliente</a>
+                <button class="btn btn-outline-primary" onclick="alterarConteudo('categoriasAdd')">Nova Categoria</button>        
              </div>
-         </section>
+        </section>
  
-         <section class="card card-body mt-2">
+        <section class="card card-body mt-2">
              <table class="table table-hover table-striped">
                  <thead class="table-primary">
                      <tr>
@@ -61,7 +60,7 @@ function categorias() {
                      </tr>
                  </tbody>
              </table>
-         </section>
-     `;
+        </section>
+    `;
  }
  

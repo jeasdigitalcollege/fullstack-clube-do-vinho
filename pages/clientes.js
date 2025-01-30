@@ -1,7 +1,6 @@
 function clientes() {
    return `
-    <body class="container">
-        <section class="d-flex flex-row justify-content-between align-items-center card card-body">
+        <section class="d-flex flex-row justify-content-between align-items-center card card-body mt-2">
             <div>  
                 <h2>Clientes</h2>
             </div>

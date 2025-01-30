@@ -1,47 +1,32 @@
-const SELECT_DIA = document.getElementById('select-dia');
-const SELECT_MES = document.getElementById('select-mes');
-const SELECT_ANO = document.getElementById('select-ano');
+document.addEventListener('DOMContentLoaded', function() {
+    inicializarSelects(); // Chama a função que inicializa os selects
+});
 
+function inicializarSelects() {
+    const SELECT_DIA = document.getElementById('select-dia');
+    const SELECT_MES = document.getElementById('select-mes');
+    const SELECT_ANO = document.getElementById('select-ano');
 
-let numero = 1;
+    if (SELECT_DIA && SELECT_MES && SELECT_ANO) {
+        
+        let numero = 1;
+        while (numero <= 31) {
+            SELECT_DIA.innerHTML += `<option>${numero}</option>`;
+            numero++;
+        }
 
-while (numero <= 31) {
-    SELECT_DIA.innerHTML += `<option>${numero}</option>`;
+        let mes = 1;
+        do {
+            SELECT_MES.innerHTML += `<option>${mes}</option>`;
+            mes++;
+        } while (mes <= 12);
 
-    numero++;
-}
-
-// --------- MES -----------
-let mes = 1;
-
-do {
-    SELECT_MES.innerHTML += `<option>${mes}</option>`;
-    mes++;
-} while(mes <= 12);
-
-// -------- ANO -----------
-for (let ano = 2025; ano >= 1950; ano--) {
-    if (ano % 2 !== 0) { //é impar?
-        SELECT_ANO.innerHTML += `<option>${ano}</option>`;
+        for (let ano = 2025; ano >= 1950; ano--) {
+            if (ano % 2 !== 0) {
+                SELECT_ANO.innerHTML += `<option>${ano}</option>`;
+            }
+        }
+    } else {
+        console.error("Elementos select não encontrados!");  // Importante para depuração
     }
 }
-
-// Dever de casa
-// Mostrar os nomes do meses ao inves dos numero
-
-
-
-
-
-
-
-// let nome = 'Bruno';
-// let idade = 30;
-// let cidade = 'Caucaia';
-// let hobby = 'Pescar';
-
-// let frase = "Oi, meu nome é " + nome + ", tenho " + idade + " anos de idade, e moro em " + cidade + " e " + hobby + " é meu passatempo";
-
-
-// //template string
-// let frase2 = `Oi, meu nome é ${nome}, tenho ${idade} anos de idade, moro em ${cidade}, e ${hobby} é meu passatempo`;

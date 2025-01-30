@@ -14,8 +14,5 @@ MAIN.innerHTML = `
     ${footer()}`;
 
 function alterarConteudo(pagina) {
-   //console.log(pagina);
-   //console.log(window[pagina]());
-
-   MAIN.innerHTML = `${header()} ${window[pagina]()} ${footer()} `;
+   MAIN.innerHTML = `${header()} ${window[pagina]()} ${footer()}`;
 }

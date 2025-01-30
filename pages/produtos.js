@@ -1,7 +1,6 @@
 function produtos() {
    return `
-  <body class="container">
-      <section class="d-flex flex-row justify-content-between align-items-center card card-body">
+      <section class="d-flex flex-row justify-content-between align-items-center card card-body mt-2">
           <div>  
               <h2>Produtos</h2>
           </div>
