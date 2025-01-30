@@ -1,8 +1,6 @@
----
-
-### 📌 **README.md** para o Projeto **Clube do Vinho**
-
 # 🍷 Clube do Vinho
+
+📌 **README.md** para o Projeto **Clube do Vinho**
 
 O **Clube do Vinho** é um site desenvolvido utilizando **HTML, CSS e JavaScript** com **Bootstrap** para estilização. Ele oferece uma interface para usuários realizarem login e navegarem entre diferentes páginas do sistema.
 
@@ -10,7 +8,8 @@ O **Clube do Vinho** é um site desenvolvido utilizando **HTML, CSS e JavaScript
 
 A estrutura do projeto está organizada da seguinte forma:
 
-CLUBEDOVINHO-FRONT
+```plaintext
+CLUBE-DO-VINHO
 │── components/ # Componentes reutilizáveis (Header, Footer)
 │── css/ # Arquivos de estilos CSS
 │── img/ # Imagens utilizadas no site
@@ -40,8 +39,7 @@ CLUBEDOVINHO-FRONT
 ## 🚀 **Como Executar o Projeto**
 
 1. **Clone o repositório**
-   git clone https://github.com/jeasdigitalcollege/ClubeDoVinho.git
-   cd ClubeDoVinho
+   git clone https://github.com/jeasdigitalcollege/fullstack-clube-do-vinho.git
 
 2. **Abra o arquivo `index.html`** diretamente no navegador.
 3. **Para desenvolvimento local**, utilize a extensão "Live Server" no VS Code ou um servidor HTTP simples:
@@ -75,3 +73,4 @@ CLUBEDOVINHO-FRONT
 -  **GitHub:** [jeasdigitalcollege](https://github.com/jeasdigitalcollege)
 
 📌 Projeto criado para fins de aprendizado e desenvolvimento web! 🚀
+```
