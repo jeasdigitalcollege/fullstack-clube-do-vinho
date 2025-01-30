@@ -2,7 +2,6 @@
 
 ### 📌 **README.md** para o Projeto **Clube do Vinho**
 
-```markdown
 # 🍷 Clube do Vinho
 
 O **Clube do Vinho** é um site desenvolvido utilizando **HTML, CSS e JavaScript** com **Bootstrap** para estilização. Ele oferece uma interface para usuários realizarem login e navegarem entre diferentes páginas do sistema.
@@ -10,7 +9,6 @@ O **Clube do Vinho** é um site desenvolvido utilizando **HTML, CSS e JavaScript
 ## 📁 Estrutura do Projeto
 
 A estrutura do projeto está organizada da seguinte forma:
-```
 
 CLUBEDOVINHO-FRONT
 │── components/ # Componentes reutilizáveis (Header, Footer)
@@ -23,17 +21,14 @@ CLUBEDOVINHO-FRONT
 │── index.html # Página inicial (Login)
 │── README.md # Documentação do projeto
 
-````
-
 ### 📂 **Principais Arquivos**
-- `index.html`: Página inicial contendo o formulário de login.
-- `controller.html`: Controla a navegação entre as páginas.
-- `index.js`: Manipula o conteúdo dinâmico do site.
-- `custom.css`: Contém os estilos personalizados do site.
-- `components/`: Contém arquivos como `header.js` e `footer.js` para facilitar a reutilização de código.
-- `pages/`: Contém arquivos JavaScript para diferentes seções, como **clientes**, **pedidos**, **produtos** etc.
 
----
+-  `index.html`: Página inicial contendo o formulário de login.
+-  `controller.html`: Controla a navegação entre as páginas.
+-  `index.js`: Manipula o conteúdo dinâmico do site.
+-  `custom.css`: Contém os estilos personalizados do site.
+-  `components/`: Contém arquivos como `header.js` e `footer.js` para facilitar a reutilização de código.
+-  `pages/`: Contém arquivos JavaScript para diferentes seções, como **clientes**, **pedidos**, **produtos** etc.
 
 ## 🛠 **Tecnologias Utilizadas**
 
@@ -42,19 +37,15 @@ CLUBEDOVINHO-FRONT
 -  **JavaScript (ES6)** - Lógica do site
 -  **Bootstrap 5** - Framework CSS para responsividade
 
----
-
 ## 🚀 **Como Executar o Projeto**
 
 1. **Clone o repositório**
-   git clone https://github.com/seu-usuario/ClubeDoVinho.git
+   git clone https://github.com/jeasdigitalcollege/ClubeDoVinho.git
    cd ClubeDoVinho
 
 2. **Abra o arquivo `index.html`** diretamente no navegador.
 3. **Para desenvolvimento local**, utilize a extensão "Live Server" no VS Code ou um servidor HTTP simples:
    npx http-server .
-
----
 
 ## 🖥 **Funcionamento**
 
@@ -71,15 +62,11 @@ CLUBEDOVINHO-FRONT
 -  **JavaScript (`index.js`)**
    -  Manipula o DOM para inserir dinamicamente o **header**, **footer** e conteúdo principal.
 
----
-
-## ✨ **Melhorias Futuras**
+# ✨ **Melhorias Futuras**
 
 -  Implementação de autenticação real com backend.
 -  Adição de um banco de dados para persistência dos usuários.
 -  Melhor responsividade e design aprimorado.
-
----
 
 ## 👨‍💻 **Desenvolvedor**
 
