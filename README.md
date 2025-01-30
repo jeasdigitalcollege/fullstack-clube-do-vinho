@@ -1,5 +1,3 @@
-Aqui está um arquivo `README.md` para documentar o seu projeto **Clube do Vinho**. Ele inclui uma introdução, estrutura do projeto, tecnologias utilizadas e instruções básicas de uso.
-
 ---
 
 ### 📌 **README.md** para o Projeto **Clube do Vinho**
@@ -38,26 +36,23 @@ CLUBEDOVINHO-FRONT
 ---
 
 ## 🛠 **Tecnologias Utilizadas**
-- **HTML5** - Estrutura do site
-- **CSS3** - Estilização (com `custom.css`)
-- **JavaScript (ES6)** - Lógica do site
-- **Bootstrap 5** - Framework CSS para responsividade
+
+-  **HTML5** - Estrutura do site
+-  **CSS3** - Estilização (com `custom.css`)
+-  **JavaScript (ES6)** - Lógica do site
+-  **Bootstrap 5** - Framework CSS para responsividade
 
 ---
 
 ## 🚀 **Como Executar o Projeto**
 
 1. **Clone o repositório**
-   ```bash
    git clone https://github.com/seu-usuario/ClubeDoVinho.git
    cd ClubeDoVinho
-````
 
 2. **Abra o arquivo `index.html`** diretamente no navegador.
 3. **Para desenvolvimento local**, utilize a extensão "Live Server" no VS Code ou um servidor HTTP simples:
-   ```bash
    npx http-server .
-   ```
 
 ---
 
@@ -88,15 +83,8 @@ CLUBEDOVINHO-FRONT
 
 ## 👨‍💻 **Desenvolvedor**
 
--  **Nome:** Seu Nome
--  **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/seu-perfil)
--  **GitHub:** [Seu GitHub](https://github.com/seu-usuario)
+-  **Nome:** Jorge Eduardo Andrade Siqueira
+-  **LinkedIn:** [jorgeeasiqueira](https://www.linkedin.com/in/jorgeeasiqueira)
+-  **GitHub:** [jeasdigitalcollege](https://github.com/jeasdigitalcollege)
 
 📌 Projeto criado para fins de aprendizado e desenvolvimento web! 🚀
-
-```
-
----
-
-Caso precise de mais detalhes ou queira adicionar alguma outra informação, me avise! 🚀
-```
