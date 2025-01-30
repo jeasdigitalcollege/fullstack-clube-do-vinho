@@ -1,0 +1,33 @@
+html,
+body {
+   height: 100%;
+   background-color: #efefef;
+}
+
+body.login div {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+.btn-wine {
+   background-color: #ad63ff;
+   color: white;
+   border: 1px solid #ad63ff;
+}
+
+.btn-wine:hover {
+   background-color: #8a4fcc;
+}
+
+.logo {
+   width: 70px;
+   height: 70px;
+   object-fit: contain;
+}
+
+.dashboard {
+   width: 1200px;
+   height: 100vh
+   object-fit: contain;
+}
