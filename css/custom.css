@@ -39,3 +39,7 @@ body.login div {
 #erro_descricao {
    display: none;
 }
+
+.cartao-preenchido {
+    height: 330px;
+}
